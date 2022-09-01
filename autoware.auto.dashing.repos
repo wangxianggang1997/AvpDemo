@@ -1,0 +1,5 @@
+repositories:
+  src/external/autoware_auto_msgs:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
+    version: 1.0.0

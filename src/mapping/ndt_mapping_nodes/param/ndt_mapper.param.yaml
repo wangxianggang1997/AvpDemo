@@ -1,0 +1,93 @@
+# param/ndt_localizer.param.yaml
+---
+/**:
+  ros__parameters:
+    # Mapper specific configuration:
+    # Mapper 具体配置
+    file_name_prefix: "ndt_sample_map"
+    publish_map_increment: true
+    map:
+      capacity: 1000000 #生成地图点容量，注意是最大尺寸
+      min_point:
+        x: -1000.0  # origin -1000.0
+        y: -1000.0  # origin -1000.0
+        z: -3.0     # origin -3.0
+      max_point:
+        x: 1000.0   #origin 1000.0
+        y: 1000.0   #origin 1000.0
+        z: 3.0      #origin 3.0
+      voxel_size:
+        x: 0.5     #1.0
+        y: 0.5     #1.0
+        z: 0.5     #1.0
+      frame_id: map
+    map_increment_pub:  # Config of the input point cloud subscription（输入点云订阅的配置）
+      history_depth: 10
+    # Relative localization node configuration（定位节点配置）
+    observation_sub:  # Config of the input point cloud subscription
+      history_depth: 10
+    # Config of the maps point cloud subscription（地图点云订阅配置）
+    map_sub:
+      history_depth: 1
+    # Config of the maps point clouds to register（要配准的点云配置）
+    pose_pub:
+      history_depth: 10
+    # Publish the result to `/tf` topic（将结果发布到tf话题）
+    publish_tf: true
+    # Maximum allowed difference between the initial guess and the ndt pose estimate
+    # 初始估计和ndt位姿估计之间的最大允许差值
+    predict_pose_threshold: #预测位姿阈值
+      # Translation threshold in meters（平移阈值 米为单位）
+      translation: 50.0  #origin 50.0  调成100.0会报timestamp older的错
+      # Rotation threshold in radians（旋转阈值 弧度为单位）
+      rotation: 3.15     #origin 3.15  调成5.0会报timestamp older的错
+    #初始化
+    init_hack:
+      translation:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      quaternion:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+      enabled: true
+    # localizer specific configuration
+    # 定位具体配置
+    localizer:
+      #underlying voxel grid configuration of the map（地图的基础体素网格配置）
+      map:
+        capacity: 1000000 #地图点容量
+        min_point:
+          x: -1000.0
+          y: -1000.0
+          z: -3.0
+        max_point:
+          x: 1000.0
+          y: 1000.0
+          z: 3.0
+        voxel_size: #体素网格尺寸
+          x: 3.5  #origin 3.5
+          y: 3.5  #origin 3.5
+          z: 3.5  #origin 3.5
+      # ndt scan representation config
+      scan:
+        capacity: 150000 #scan点容量 origin 100000
+      # ndt optimization problem configuration
+      # ndt 优化问题配置
+      optimization:
+        outlier_ratio: 0.55 # default value from PCL 来自PCL的默认值
+      # newton optimizer configuration
+      # 牛顿优化方法配置
+      optimizer:
+        max_iterations: 40 #最大迭代次数
+        score_tolerance: 0.00001 #分数公差
+        parameter_tolerance: 0.00001 # origin 0.00001
+        gradient_tolerance: 0.00002 #梯度公差
+        line_search: #线搜索
+          step_max: 0.12  #最大步长
+          step_min: 0.0001  #最小步长
+      # Maximum accepted duration between a scan and an initial pose guess
+      # 扫描和初始姿势猜测之间的最大可接受持续时间
+      guess_time_tolerance_ms: 750  #orgin 750
