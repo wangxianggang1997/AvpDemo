@@ -217,19 +217,23 @@ bool8_t SscInterface::send_state_command(const VehicleStateCommand & msg)
     case VehicleStateCommand::GEAR_NO_COMMAND:
       break;
     case VehicleStateCommand::GEAR_DRIVE:
-      gc.command.gear = SscGear::DRIVE;
+      //gc.command.gear = SscGear::DRIVE;
+      gc.command.gear = SscGear::PARK; //4->1 让小车前进档位
       break;
     case VehicleStateCommand::GEAR_REVERSE:
       gc.command.gear = SscGear::REVERSE;
       break;
     case VehicleStateCommand::GEAR_PARK:
-      gc.command.gear = SscGear::PARK;
+      //gc.command.gear = SscGear::PARK;
+      gc.command.gear = SscGear::NONE; //1->0 让小车驻车
       break;
     case VehicleStateCommand::GEAR_LOW:
-      gc.command.gear = SscGear::LOW;
+      //gc.command.gear = SscGear::LOW;
+      gc.command.gear = SscGear::PARK;//5->1  让小车前进
       break;
     case VehicleStateCommand::GEAR_NEUTRAL:
-      gc.command.gear = SscGear::NEUTRAL;
+      //gc.command.gear = SscGear::NEUTRAL;
+      gc.command.gear = SscGear::NONE; //3->0 让小车驻车
       break;
     default:
       RCLCPP_ERROR(m_logger, "Received command for invalid gear state.");
@@ -338,9 +342,12 @@ void SscInterface::on_dbw_state_report(const std_msgs::msg::Bool::SharedPtr & ms
 
 void SscInterface::on_gear_report(const GearFeedback::SharedPtr & msg)
 {
+  std::cout<<"从底盘收到的档位："<< msg->current_gear.gear<<std::endl;
+
   switch (msg->current_gear.gear) {
     case SscGear::PARK:
-      state_report().gear = VehicleStateReport::GEAR_PARK;
+      //state_report().gear = VehicleStateReport::GEAR_PARK;
+      state_report().gear = VehicleStateReport::GEAR_DRIVE;
       break;
     case SscGear::REVERSE:
       state_report().gear = VehicleStateReport::GEAR_REVERSE;
@@ -355,6 +362,8 @@ void SscInterface::on_gear_report(const GearFeedback::SharedPtr & msg)
       state_report().gear = VehicleStateReport::GEAR_LOW;
       break;
     case SscGear::NONE:
+      state_report().gear = VehicleStateReport::GEAR_NEUTRAL; //自己加的，原来没有
+      break;
     default:
       state_report().gear = 0;
       RCLCPP_WARN(m_logger, "Received invalid gear value from SSC.");

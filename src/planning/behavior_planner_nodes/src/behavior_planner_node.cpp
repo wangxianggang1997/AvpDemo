@@ -267,6 +267,7 @@ void BehaviorPlannerNode::on_ego_state(const State::SharedPtr & msg)
       const auto throttle_time = std::chrono::duration<float64_t>(3);
       if (now - previous_output_arrived_goal > throttle_time) {
         RCLCPP_INFO(get_logger(), "Trying to change gear");
+        std::cout<<"!m_requesting_trajectory"<<std::endl;
         previous_output_arrived_goal = now;
       }
       RCLCPP_INFO_ONCE(get_logger(), "Reached goal. Wait for another route");
@@ -295,6 +296,7 @@ void BehaviorPlannerNode::on_ego_state(const State::SharedPtr & msg)
     const auto now = std::chrono::system_clock::now();
     if (now - previous_output > throttle_time) {
       RCLCPP_INFO(get_logger(), "Trying to change gear");
+      std::cout<<"desired_gear != m_current_gear"<<std::endl;
       previous_output = now;
     }
 

@@ -106,14 +106,15 @@ def generate_launch_description():
         condition=IfCondition(LaunchConfiguration('with_lidars')),
         arguments=["--model", "vlp16"]
     )
-    vlp16_rear = Node(
-        package='velodyne_nodes',
-        node_executable='velodyne_cloud_node_exe',
-        node_namespace='lidar_rear',
-        parameters=[LaunchConfiguration('vlp16_rear_param_file')],
-        condition=IfCondition(LaunchConfiguration('with_lidars')),
-        arguments=["--model", "vlp16"]
-    )
+    
+    # vlp16_rear = Node(
+    #     package='velodyne_nodes',
+    #     node_executable='velodyne_cloud_node_exe',
+    #     node_namespace='lidar_rear',
+    #     parameters=[LaunchConfiguration('vlp16_rear_param_file')],
+    #     condition=IfCondition(LaunchConfiguration('with_lidars')),
+    #     arguments=["--model", "vlp16"]
+    # )
     filter_transform_vlp16_front = Node(
         package='point_cloud_filter_transform_nodes',
         node_executable='point_cloud_filter_transform_node_exe',
@@ -128,7 +129,7 @@ def generate_launch_description():
         node_name='filter_transform_vlp16_rear',
         node_namespace='lidar_rear',
         parameters=[LaunchConfiguration('pc_filter_transform_param_file')],
-        remappings=[("points_in", "points_raw")]
+        remappings=[("points_in", "/lidar_front/points_raw")]
     )
     map_publisher = Node(
         package='ndt_nodes',
@@ -201,7 +202,7 @@ def generate_launch_description():
         ssc_interface_param,
         pc_filter_transform_param,
         vlp16_front,
-        vlp16_rear,
+        # vlp16_rear,
         filter_transform_vlp16_front,
         filter_transform_vlp16_rear,
         urdf_publisher,

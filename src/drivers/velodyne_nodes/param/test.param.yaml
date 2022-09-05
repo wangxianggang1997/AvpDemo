@@ -1,7 +1,7 @@
 /**:
   ros__parameters:
-    ip: "127.0.0.1"
-    port: 2368
+    ip: "192.168.1.205"
+    port: 2370
     cloud_size:  55000
     topic: "points_raw"
     frame_id: "lidar_front"
