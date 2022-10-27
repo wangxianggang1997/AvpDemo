@@ -35,12 +35,12 @@ using motion::planning::trajectory_smoother::TrajectorySmoother;
 using geometry_msgs::msg::Point32;
 
 /// \brief Convert a trajectory waypoint into a bounding box representing the volume occupied by the
-///        ego vehicle while on this waypoint.
-/// \param pt A waypoint of a trajectory
-/// \param vehicle_param Ego vehicle parameter defining its dimensions
+///        ego vehicle while on this waypoint.将轨迹航路点转换为一个边界框，表示自驾车在此航路点上所占用的体积。
+/// \param pt A waypoint of a trajectory 轨迹的航点
+/// \param vehicle_param Ego vehicle parameter defining its dimensions 定义其尺寸的自车辆参数
 /// \param safety_factor A factor to inflate the size of the vehicle so to avoid getting too close
-///                      to obstacles.
-/// \return BoundingBox The box bounding the ego vehicle at the waypoint.
+///                      to obstacles.一个使车辆尺寸膨胀的因素，以避免太靠近障碍物。
+/// \return BoundingBox The box bounding the ego vehicle at the waypoint.边界框 在航点处限制自我车辆的框。
 BoundingBox waypointToBox(
   const TrajectoryPoint pt,
   const VehicleConfig & vehicle_param,
@@ -55,39 +55,41 @@ BoundingBox waypointToBox(
   float32_t sh = std::sin(heading);
 
   // inflate size of vehicle by safety factor
+  // 通过安全系数夸大车辆尺寸
   lf *= safety_factor;
   lr *= safety_factor;
   wh *= safety_factor;
 
   // Create a list of corners for the vehicle
+  // 为车辆创建弯道列表
   std::list<Point32> vehicle_corners;
 
-  {     // Front left
+  {     // Front left 左前方
     auto p = Point32{};
     p.x = pt.x + (lf * ch) - (wh * sh);
     p.y = pt.y + (lf * sh) + (wh * ch);
     vehicle_corners.push_back(p);
   }
-  {     // Front right
+  {     // Front right 右前方
     auto p = Point32{};
     p.x = pt.x + (lf * ch) + (wh * sh);
     p.y = pt.y + (lf * sh) - (wh * ch);
     vehicle_corners.push_back(p);
   }
-  {     // Rear right
+  {     // Rear right 右后方
     auto p = Point32{};
     p.x = pt.x - (lr * ch) + (wh * sh);
     p.y = pt.y - (lr * sh) - (wh * ch);
     vehicle_corners.push_back(p);
   }
-  {     // Rear left
+  {     // Rear left 左后方
     auto p = Point32{};
     p.x = pt.x - (lr * ch) - (wh * sh);
     p.y = pt.y - (lr * sh) + (wh * ch);
     vehicle_corners.push_back(p);
   }
 
-  return minimum_perimeter_bounding_box(vehicle_corners);
+  return minimum_perimeter_bounding_box(vehicle_corners); //最小周长边界框
 }
 
 /// \brief Determine if a obstacle is too far away from a way point given a distance threshold

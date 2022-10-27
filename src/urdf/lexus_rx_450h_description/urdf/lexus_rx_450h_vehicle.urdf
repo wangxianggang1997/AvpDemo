@@ -16,16 +16,20 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="package://lexus_rx_450h_description/meshes/LexusRX.obj" scale="0.001 0.001 0.001"/>
+        <!-- <mesh filename="package://lexus_rx_450h_description/meshes/LexusRX.obj" scale="0.001 0.001 0.001"/>  lexus_rx_450h -->
+        <mesh filename="package://lexus_rx_450h_description/meshes/LexusRX.obj" scale="0.00045 0.0003 0.0005"/>  
       </geometry>
       <material name="black"/>
-      <origin xyz="0.83 0 0.31" rpy="0 0 1.570796"/>
+      <!-- <origin xyz="0.83 0 0.31" rpy="0 0 1.570796"/>  origin -->
+      <origin xyz="0.38 0 0.19" rpy="0 0 1.570796"/>
     </visual>
     <collision>
       <geometry>
-        <box size="5.5 2.25 2"/>
+        <!-- <box size="5.5 2.25 2"/>  origin -->
+        <box size="1.6 1 1"/>
       </geometry>
-      <origin xyz="0.83 0 0.31" rpy="0 0 0"/>
+      <!-- <origin xyz="0.83 0 0.31" rpy="0 0 0"/>  origin -->
+      <origin xyz="0.38 0 0.19" rpy="0 0 0"/>
     </collision>
     <inertial>
       <!-- TODO: Get or calculate inertia values -->
@@ -61,7 +65,8 @@
   <joint name="lidar_front_joint" type="fixed">
     <parent link="base_link"/>
     <child link="lidar_front"/>
-    <origin xyz="1.4 0 1.422" rpy="0.0215759 0.125004 0.111496"/>
+    <!-- <origin xyz="1.4 0 1.422" rpy="0.0215759 0.125004 0.111496"/> -->
+    <origin xyz="0.47 0 0.86" rpy="0.0215759 0.125004 0.111496"/>
   </joint>
 
   <link name="lidar_rear">
@@ -85,9 +90,15 @@
     </inertial>
   </link>
 
-  <joint name="lidar_rear_joint" type="fixed">
+  <!-- <joint name="lidar_rear_joint" type="fixed">
     <parent link="base_link"/>
     <child link="lidar_rear"/>
     <origin xyz="0.1 0.01 1.422" rpy="0 0.146539 3.13"/>
+  </joint> -->
+  <joint name="lidar_rear_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_rear"/>
+    <!-- <origin xyz="1.4 0 1.422" rpy="0.0215759 0.125004 0.111496"/> -->
+    <origin xyz="0.47 0 0.86" rpy="0.0215759 0.125004 0.111496"/>
   </joint>
 </robot>

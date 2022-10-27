@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm generator="VMB">
-  <MetaInfo format_version="1" map_version="3"/>
+  <MetaInfo format_version="1" map_version="2"/>
   <node id="-101885" lat="30.69478405997241" lon="119.86807931236895">
     <tag k="mgrs_code" v="50RQU747992"/>
     <tag k="local_x" v="74727.759"/>
@@ -31,49 +31,61 @@
     <tag k="local_y" v="99288.9488"/>
     <tag k="ele" v="0.1415"/>
   </node>
-  <node id="-101986" lat="30.69481365523774" lon="119.86806191874008">
+  <node id="-101986" lat="30.694813655676796" lon="119.86806471442726">
     <tag k="type" v="poi"/>
     <tag k="subtype" v="parking_spot"/>
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74726.0083"/>
-    <tag k="local_y" v="99292.2133"/>
+    <tag k="local_x" v="74726.2762"/>
+    <tag k="local_y" v="99292.2202"/>
     <tag k="ele" v="0.2548"/>
     <tag k="level" v="1"/>
     <tag k="ref_parking" v="-99871"/>
     <tag k="use" v="center"/>
   </node>
-  <node id="-101987" lat="30.694812625877407" lon="119.86811490068794">
+  <node id="-101987" lat="30.694812425324205" lon="119.86811699750882">
     <tag k="type" v="poi"/>
     <tag k="subtype" v="parking_spot"/>
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74731.0883"/>
-    <tag k="local_y" v="99292.229"/>
+    <tag k="local_x" v="74731.2898"/>
+    <tag k="local_y" v="99292.2119"/>
     <tag k="ele" v="0.2543"/>
     <tag k="level" v="1"/>
     <tag k="ref_parking" v="-99886"/>
     <tag k="use" v="center"/>
   </node>
-  <node id="-101988" lat="30.694811420120004" lon="119.86817537324232">
+  <node id="-101988" lat="30.694811420608232" lon="119.8681742086535">
     <tag k="type" v="poi"/>
     <tag k="subtype" v="parking_spot"/>
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74736.8866"/>
-    <tag k="local_y" v="99292.2435"/>
+    <tag k="local_x" v="74736.775"/>
+    <tag k="local_y" v="99292.2407"/>
     <tag k="ele" v="0.2803"/>
     <tag k="level" v="1"/>
-    <tag k="ref_parking" v="-99887"/>
+    <tag k="ref_parking" v="-100306"/>
     <tag k="use" v="center"/>
   </node>
-  <node id="-101989" lat="30.69481040281989" lon="119.86820263200266">
+  <node id="-101989" lat="30.694810002373348" lon="119.86819936948926">
     <tag k="type" v="poi"/>
     <tag k="subtype" v="parking_spot"/>
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74739.5016"/>
-    <tag k="local_y" v="99292.1975"/>
+    <tag k="local_x" v="74739.1901"/>
+    <tag k="local_y" v="99292.1451"/>
     <tag k="ele" v="0.1509"/>
     <tag k="level" v="1"/>
-    <tag k="ref_parking" v="-99888"/>
+    <tag k="ref_parking" v="-100311"/>
     <tag k="use" v="center"/>
+  </node>
+  <node id="-102179" lat="30.694833951221668" lon="119.86818887780926">
+    <tag k="mgrs_code" v="50RQU747992"/>
+    <tag k="local_x" v="74738.1168"/>
+    <tag k="local_y" v="99294.775"/>
+    <tag k="ele" v="0.1655"/>
+  </node>
+  <node id="-102180" lat="30.694785901912578" lon="119.86818713857143">
+    <tag k="mgrs_code" v="50RQU747992"/>
+    <tag k="local_x" v="74738.0864"/>
+    <tag k="local_y" v="99289.4427"/>
+    <tag k="ele" v="0.1655"/>
   </node>
   <node id="1" lat="30.695114550257657" lon="119.86804518626577">
     <tag k="mgrs_code" v="50RQU747993"/>
@@ -187,10 +199,10 @@
     <tag k="x" v="13.3035"/>
     <tag k="y" v="-5.6662"/>
   </node>
-  <node id="21" lat="30.69477636934079" lon="119.86833400131218">
+  <node id="21" lat="30.694773564592097" lon="119.86833633099232">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74752.1868"/>
-    <tag k="local_y" v="99288.7456"/>
+    <tag k="local_x" v="74752.418"/>
+    <tag k="local_y" v="99288.4403"/>
     <tag k="ele" v="-0.2051"/>
     <tag k="x" v="12.893"/>
     <tag k="y" v="-34.8144"/>
@@ -251,34 +263,34 @@
     <tag k="x" v="12.893"/>
     <tag k="y" v="-34.8144"/>
   </node>
-  <node id="34" lat="30.694758320354133" lon="119.86831984149273">
+  <node id="34" lat="30.69475551650693" lon="119.86832217119957">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74750.8811"/>
-    <tag k="local_y" v="99286.7095"/>
+    <tag k="local_x" v="74751.1123"/>
+    <tag k="local_y" v="99286.4043"/>
     <tag k="ele" v="-0.1634"/>
     <tag k="x" v="11.6002"/>
     <tag k="y" v="-36.8899"/>
   </node>
-  <node id="36" lat="30.694749986381193" lon="119.86829741208643">
+  <node id="36" lat="30.694747181633137" lon="119.86829974176709">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74748.7554"/>
-    <tag k="local_y" v="99285.7304"/>
+    <tag k="local_x" v="74748.9866"/>
+    <tag k="local_y" v="99285.4251"/>
     <tag k="ele" v="-0.1038"/>
     <tag k="x" v="9.4838"/>
     <tag k="y" v="-37.8887"/>
   </node>
-  <node id="37" lat="30.69474937010033" lon="119.86827886247552">
+  <node id="37" lat="30.69474376060477" lon="119.86828352183788">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74746.9796"/>
-    <tag k="local_y" v="99285.6166"/>
+    <tag k="local_x" v="74747.442"/>
+    <tag k="local_y" v="99285.006"/>
     <tag k="ele" v="-0.0797"/>
     <tag k="x" v="7.7089"/>
     <tag k="y" v="-38.0188"/>
   </node>
-  <node id="38" lat="30.694750194090116" lon="119.86825610719528">
+  <node id="38" lat="30.694740978445118" lon="119.86825936896217">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74744.7967"/>
-    <tag k="local_y" v="99285.6522"/>
+    <tag k="local_x" v="74745.1354"/>
+    <tag k="local_y" v="99284.6383"/>
     <tag k="ele" v="-0.0378"/>
     <tag k="x" v="5.4862"/>
     <tag k="y" v="-38.0032"/>
@@ -307,10 +319,10 @@
     <tag k="x" v="5.4862"/>
     <tag k="y" v="-38.0206"/>
   </node>
-  <node id="44" lat="30.694755687888247" lon="119.86803931976132">
+  <node id="44" lat="30.694746472364905" lon="119.86803465995966">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74724.0071"/>
-    <tag k="local_y" v="99285.7301"/>
+    <tag k="local_x" v="74723.5867"/>
+    <tag k="local_y" v="99284.6968"/>
     <tag k="ele" v="0.2516"/>
     <tag k="x" v="-15.2678"/>
     <tag k="y" v="-38.116"/>
@@ -379,58 +391,58 @@
     <tag k="x" v="-15.2678"/>
     <tag k="y" v="-38.116"/>
   </node>
-  <node id="64" lat="30.69476208222689" lon="119.86801473509138">
+  <node id="64" lat="30.694751664670918" lon="119.86800215465082">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74721.6331"/>
-    <tag k="local_y" v="99286.3789"/>
+    <tag k="local_x" v="74720.4571"/>
+    <tag k="local_y" v="99285.1929"/>
     <tag k="ele" v="0.4253"/>
     <tag k="x" v="-17.6484"/>
     <tag k="y" v="-37.4889"/>
   </node>
-  <node id="66" lat="30.694773537475356" lon="119.86798982849774">
+  <node id="66" lat="30.694766325500762" lon="119.8679777144229">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74719.2139"/>
-    <tag k="local_y" v="99287.5881"/>
+    <tag k="local_x" v="74718.0735"/>
+    <tag k="local_y" v="99286.7587"/>
     <tag k="ele" v="0.4928"/>
     <tag k="x" v="-20.0798"/>
     <tag k="y" v="-36.3017"/>
   </node>
-  <node id="67" lat="30.69479373017695" lon="119.86795852781974">
+  <node id="67" lat="30.694788120817677" lon="119.86794408395946">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74716.1572"/>
-    <tag k="local_y" v="99289.7505"/>
+    <tag k="local_x" v="74714.789"/>
+    <tag k="local_y" v="99289.0931"/>
     <tag k="ele" v="0.5165"/>
     <tag k="x" v="-23.1581"/>
     <tag k="y" v="-34.1671"/>
   </node>
-  <node id="68" lat="30.69482085365146" lon="119.86792925426413">
+  <node id="68" lat="30.69481845013732" lon="119.86791387736952">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74713.2751"/>
-    <tag k="local_y" v="99292.6864"/>
+    <tag k="local_x" v="74711.8084"/>
+    <tag k="local_y" v="99292.3822"/>
     <tag k="ele" v="0.8012"/>
     <tag k="x" v="-26.0694"/>
     <tag k="y" v="-31.2572"/>
   </node>
-  <node id="69" lat="30.694848545653603" lon="119.86791714307283">
+  <node id="69" lat="30.69484533978478" lon="119.86790363125978">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74712.036"/>
-    <tag k="local_y" v="99295.7274"/>
+    <tag k="local_x" v="74710.7503"/>
+    <tag k="local_y" v="99295.3388"/>
     <tag k="ele" v="0.8308"/>
     <tag k="x" v="-27.3384"/>
     <tag k="y" v="-28.2272"/>
   </node>
-  <node id="70" lat="30.694870586972428" lon="119.86791445281837">
+  <node id="70" lat="30.694870586804196" lon="119.86789907607343">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74711.7157"/>
-    <tag k="local_y" v="99298.1649"/>
+    <tag k="local_x" v="74710.2422"/>
+    <tag k="local_y" v="99298.1272"/>
     <tag k="ele" v="0.8318"/>
     <tag k="x" v="-27.6827"/>
     <tag k="y" v="-25.7923"/>
   </node>
-  <node id="71" lat="30.694890476759024" lon="119.86791493599459">
+  <node id="71" lat="30.69488887374884" lon="119.86789769603476">
     <tag k="mgrs_code" v="50RQU747993"/>
-    <tag k="local_x" v="74711.7056"/>
-    <tag k="local_y" v="99300.3716"/>
+    <tag k="local_x" v="74710.0581"/>
+    <tag k="local_y" v="99300.1516"/>
     <tag k="ele" v="0.8104"/>
     <tag k="x" v="-27.7144"/>
     <tag k="y" v="-23.5854"/>
@@ -459,10 +471,10 @@
     <tag k="x" v="-27.7144"/>
     <tag k="y" v="-23.5854"/>
   </node>
-  <node id="77" lat="30.69502349751097" lon="119.86791960699767">
+  <node id="77" lat="30.69502109417569" lon="119.86790842516179">
     <tag k="mgrs_code" v="50RQU747993"/>
-    <tag k="local_x" v="74711.776"/>
-    <tag k="local_y" v="99315.1333"/>
+    <tag k="local_x" v="74710.7113"/>
+    <tag k="local_y" v="99314.8394"/>
     <tag k="ele" v="0.7868"/>
     <tag k="x" v="-27.7799"/>
     <tag k="y" v="-8.821"/>
@@ -515,10 +527,10 @@
     <tag k="x" v="-27.7799"/>
     <tag k="y" v="-8.821"/>
   </node>
-  <node id="87" lat="30.69505586183075" lon="119.8679357755689">
+  <node id="87" lat="30.695059066478827" lon="119.86792738839387">
     <tag k="mgrs_code" v="50RQU747993"/>
-    <tag k="local_x" v="74713.2336"/>
-    <tag k="local_y" v="99318.7617"/>
+    <tag k="local_x" v="74712.4208"/>
+    <tag k="local_y" v="99319.0965"/>
     <tag k="ele" v="0.5305"/>
     <tag k="x" v="-26.3664"/>
     <tag k="y" v="-5.1788"/>
@@ -555,42 +567,50 @@
     <tag k="x" v="-16.1134"/>
     <tag k="y" v="1.6927"/>
   </node>
-  <node id="95" lat="30.694785217030788" lon="119.86821408679201">
+  <node id="95" lat="30.694785216327414" lon="119.8682102423292">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74740.6707"/>
-    <tag k="local_y" v="99289.4328"/>
+    <tag k="local_x" v="74740.3023"/>
+    <tag k="local_y" v="99289.4233"/>
     <tag k="ele" v="-0.0216"/>
     <tag k="x" v="1.2713"/>
     <tag k="y" v="-34.7424"/>
   </node>
-  <node id="96" lat="30.69483467654778" lon="119.86821571437603">
+  <node id="96" lat="30.694833073320773" lon="119.86821268550197">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74740.6864"/>
-    <tag k="local_y" v="99294.9212"/>
+    <tag k="local_x" v="74740.4007"/>
+    <tag k="local_y" v="99294.736"/>
     <tag k="ele" v="0.1509"/>
     <tag k="x" v="1.3237"/>
     <tag k="y" v="-28.7707"/>
   </node>
-  <node id="98" lat="30.69483550706133" lon="119.86818878714847">
+  <node id="98" lat="30.69483400432925" lon="119.86818692376534">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74738.1037"/>
-    <tag k="local_y" v="99294.9473"/>
+    <tag k="local_x" v="74737.9294"/>
+    <tag k="local_y" v="99294.7761"/>
     <tag k="ele" v="0.1655"/>
     <tag k="x" v="-1.3072"/>
     <tag k="y" v="-28.7683"/>
   </node>
-  <node id="99" lat="30.694785938975855" lon="119.86818668572357">
+  <node id="99" lat="30.694785938952304" lon="119.86818505465259">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74738.0429"/>
-    <tag k="local_y" v="99289.4457"/>
+    <tag k="local_x" v="74737.8866"/>
+    <tag k="local_y" v="99289.4417"/>
     <tag k="ele" v="0.0944"/>
     <tag k="x" v="-1.3114"/>
     <tag k="y" v="-34.7293"/>
   </node>
-  <node id="101" lat="30.694836430255982" lon="119.86816305231179">
+  <node id="100" lat="30.69483959505748" lon="119.8681916004943">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74735.635"/>
-    <tag k="local_y" v="99294.9866"/>
+    <tag k="local_x" v="74738.3617"/>
+    <tag k="local_y" v="99295.4075"/>
+    <tag k="ele" v="0.1655"/>
+    <tag k="x" v="-1.3072"/>
+    <tag k="y" v="-28.7404"/>
+  </node>
+  <node id="101" lat="30.69483492781478" lon="119.86816305272076">
+    <tag k="mgrs_code" v="50RQU747992"/>
+    <tag k="local_x" v="74735.6393"/>
+    <tag k="local_y" v="99294.82"/>
     <tag k="ele" v="0.2803"/>
     <tag k="x" v="-3.729"/>
     <tag k="y" v="-28.7516"/>
@@ -603,26 +623,26 @@
     <tag k="x" v="-3.7561"/>
     <tag k="y" v="-34.7788"/>
   </node>
-  <node id="104" lat="30.694787320131418" lon="119.86812582600103">
+  <node id="104" lat="30.694787520245566" lon="119.86812815591148">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74732.207"/>
-    <tag k="local_y" v="99289.4497"/>
+    <tag k="local_x" v="74732.4297"/>
+    <tag k="local_y" v="99289.4776"/>
     <tag k="ele" v="0.2122"/>
     <tag k="x" v="-7.0744"/>
     <tag k="y" v="-34.6661"/>
   </node>
-  <node id="105" lat="30.694836838186237" lon="119.86812745735959">
+  <node id="105" lat="30.69483593667175" lon="119.86813013660951">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74732.2229"/>
-    <tag k="local_y" v="99294.9446"/>
+    <tag k="local_x" v="74732.4822"/>
+    <tag k="local_y" v="99294.8512"/>
     <tag k="ele" v="0.2818"/>
     <tag k="x" v="-7.1412"/>
     <tag k="y" v="-28.8249"/>
   </node>
-  <node id="107" lat="30.694837811613745" lon="119.86810385598388">
+  <node id="107" lat="30.694836409301264" lon="119.86810385518274">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74729.9585"/>
-    <tag k="local_y" v="99294.9947"/>
+    <tag k="local_x" v="74729.9624"/>
+    <tag k="local_y" v="99294.8392"/>
     <tag k="ele" v="0.2968"/>
     <tag k="x" v="-9.4064"/>
     <tag k="y" v="-28.7956"/>
@@ -635,18 +655,18 @@
     <tag k="x" v="-9.379"/>
     <tag k="y" v="-34.7166"/>
   </node>
-  <node id="109" lat="30.69478897644846" lon="119.86807161140332">
+  <node id="109" lat="30.69478897627869" lon="119.86807627085408">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74727.0071"/>
-    <tag k="local_y" v="99289.5005"/>
+    <tag k="local_x" v="74727.4536"/>
+    <tag k="local_y" v="99289.5119"/>
     <tag k="ele" v="0.2548"/>
     <tag k="x" v="-12.2645"/>
     <tag k="y" v="-34.7271"/>
   </node>
-  <node id="110" lat="30.694838134681365" lon="119.86807279379417">
+  <node id="110" lat="30.69483733281032" lon="119.86807745248032">
     <tag k="mgrs_code" v="50RQU747992"/>
-    <tag k="local_x" v="74726.981"/>
-    <tag k="local_y" v="99294.9544"/>
+    <tag k="local_x" v="74727.4297"/>
+    <tag k="local_y" v="99294.8769"/>
     <tag k="ele" v="0.4006"/>
     <tag k="x" v="-12.3839"/>
     <tag k="y" v="-28.8632"/>
@@ -670,35 +690,6 @@
   <way id="-101833">
     <nd ref="109"/>
     <nd ref="113"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="1"/>
-    <tag k="center" v="-101986"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99896"/>
-  </way>
-  <way id="-101840">
-    <nd ref="-101885"/>
-    <nd ref="41"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10000"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99871"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
-  </way>
-  <way id="-101843">
-    <nd ref="-101887"/>
-    <nd ref="104"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10001"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99886"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
   </way>
   <way id="-101847">
     <nd ref="32"/>
@@ -710,127 +701,58 @@
     <nd ref="-101885"/>
     <tag k="level" v="1"/>
   </way>
-  <way id="-101868">
-    <nd ref="-101903"/>
-    <nd ref="95"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10002"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99887,-99888"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
-  </way>
   <way id="-101881">
     <nd ref="-101904"/>
     <nd ref="-101887"/>
     <tag k="level" v="1"/>
   </way>
-  <way id="-101884">
-    <nd ref="-101903"/>
-    <nd ref="-101904"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10002"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99887,-99888"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
-  </way>
   <way id="-101892">
     <nd ref="99"/>
     <nd ref="103"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="3"/>
-    <tag k="center" v="-101988"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99891"/>
   </way>
   <way id="-101898">
     <nd ref="95"/>
-    <nd ref="99"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="4"/>
-    <tag k="center" v="-101989"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99891"/>
-  </way>
-  <way id="-101901">
-    <nd ref="103"/>
-    <nd ref="-101904"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10002"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99887,-99888"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
-  </way>
-  <way id="-101966">
-    <nd ref="99"/>
-    <nd ref="98"/>
-    <nd ref="101"/>
-    <nd ref="103"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="3"/>
-    <tag k="center" v="-101988"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99891"/>
-  </way>
-  <way id="-102530">
-    <nd ref="108"/>
-    <nd ref="-101888"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10001"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99886"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
+    <nd ref="-102180"/>
   </way>
   <way id="-102549">
     <nd ref="104"/>
     <nd ref="108"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="2"/>
-    <tag k="center" v="-101987"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99892"/>
-  </way>
-  <way id="-102811">
-    <nd ref="-101885"/>
-    <nd ref="109"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10000"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99871"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
   </way>
   <way id="-102812">
     <nd ref="113"/>
     <nd ref="41"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10000"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99871"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
   </way>
   <way id="-102832">
     <nd ref="32"/>
     <nd ref="41"/>
-    <tag k="level" v="1"/>
+  </way>
+  <way id="-102934">
+    <nd ref="32"/>
+    <nd ref="95"/>
+  </way>
+  <way id="-102935">
+    <nd ref="103"/>
+    <nd ref="104"/>
+  </way>
+  <way id="-102936">
+    <nd ref="108"/>
+    <nd ref="109"/>
+  </way>
+  <way id="-103465">
+    <nd ref="99"/>
+    <nd ref="98"/>
+    <nd ref="101"/>
+    <nd ref="103"/>
+  </way>
+  <way id="-103468">
+    <nd ref="95"/>
+    <nd ref="96"/>
+    <nd ref="-102179"/>
+    <nd ref="-102180"/>
+  </way>
+  <way id="-103879">
+    <nd ref="-102180"/>
+    <nd ref="99"/>
   </way>
   <way id="3">
     <nd ref="1"/>
@@ -881,17 +803,6 @@
     <nd ref="37"/>
     <nd ref="38"/>
     <tag k="level" v="1"/>
-  </way>
-  <way id="42">
-    <nd ref="-101887"/>
-    <nd ref="-101888"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_access"/>
-    <tag k="cad_id" v="10001"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_spots" v="-99886"/>
-    <tag k="ref_lanelet" v="46,-100097"/>
   </way>
   <way id="45">
     <nd ref="38"/>
@@ -946,55 +857,21 @@
     <nd ref="1"/>
     <tag k="level" v="1"/>
   </way>
-  <way id="97">
-    <nd ref="95"/>
-    <nd ref="96"/>
-    <nd ref="98"/>
-    <nd ref="99"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="4"/>
-    <tag k="center" v="-101989"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99891"/>
-  </way>
-  <way id="102">
-    <nd ref="98"/>
-    <nd ref="101"/>
-    <nd ref="103"/>
-    <tag k="type" v="line_thin"/>
-    <tag k="subtype" v="solid"/>
-  </way>
   <way id="106">
     <nd ref="104"/>
     <nd ref="105"/>
     <nd ref="107"/>
     <nd ref="108"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="2"/>
-    <tag k="center" v="-101987"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99892"/>
   </way>
   <way id="111">
     <nd ref="109"/>
     <nd ref="110"/>
     <nd ref="112"/>
     <nd ref="113"/>
-    <tag k="type" v="area"/>
-    <tag k="subtype" v="parking_spot"/>
-    <tag k="cad_id" v="1"/>
-    <tag k="center" v="-101986"/>
-    <tag k="drivable" v="True"/>
-    <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99896"/>
   </way>
   <relation id="-100097">
-    <member type="way" role="left" ref="45"/>
-    <member type="way" role="right" ref="-102832"/>
+    <member type="way" role="left" ref="-102832"/>
+    <member type="way" role="right" ref="45"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1007,14 +884,14 @@
     <tag k="level" v="1"/>
     <tag k="level2" v="1"/>
     <tag k="next" v="-100275,"/>
-    <tag k="parking_accesses" v="-99896,-99892,-99891"/>
+    <tag k="parking_accesses" v="-100299"/>
     <tag k="prev" v="-100155,"/>
     <tag k="ref_road_cad_id" v="1000"/>
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100155">
-    <member type="way" role="left" ref="65"/>
-    <member type="way" role="right" ref="49"/>
+    <member type="way" role="left" ref="49"/>
+    <member type="way" role="right" ref="65"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1032,8 +909,8 @@
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100175">
-    <member type="way" role="left" ref="78"/>
-    <member type="way" role="right" ref="75"/>
+    <member type="way" role="left" ref="75"/>
+    <member type="way" role="right" ref="78"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1051,8 +928,8 @@
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100195">
-    <member type="way" role="left" ref="88"/>
-    <member type="way" role="right" ref="82"/>
+    <member type="way" role="left" ref="82"/>
+    <member type="way" role="right" ref="88"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1070,8 +947,8 @@
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100217">
-    <member type="way" role="left" ref="3"/>
-    <member type="way" role="right" ref="6"/>
+    <member type="way" role="left" ref="6"/>
+    <member type="way" role="right" ref="3"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1089,8 +966,8 @@
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100237">
-    <member type="way" role="left" ref="9"/>
-    <member type="way" role="right" ref="15"/>
+    <member type="way" role="left" ref="15"/>
+    <member type="way" role="right" ref="9"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1108,8 +985,8 @@
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100255">
-    <member type="way" role="left" ref="22"/>
-    <member type="way" role="right" ref="26"/>
+    <member type="way" role="left" ref="26"/>
+    <member type="way" role="right" ref="22"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1127,8 +1004,8 @@
     <tag k="slope" v="0.0"/>
   </relation>
   <relation id="-100275">
-    <member type="way" role="left" ref="35"/>
-    <member type="way" role="right" ref="30"/>
+    <member type="way" role="left" ref="30"/>
+    <member type="way" role="right" ref="35"/>
     <tag k="type" v="lanelet"/>
     <tag k="subtype" v="lane"/>
     <tag k="speed_limit" v="10"/>
@@ -1236,7 +1113,7 @@
     <tag k="level" v="1"/>
     <tag k="level2" v="1"/>
     <tag k="next" v="72,"/>
-    <tag k="parking_accesses" v="-99896,-99892,-99891"/>
+    <tag k="parking_accesses" v="-100299"/>
     <tag k="prev" v="39,"/>
     <tag k="ref_road_cad_id" v="1000"/>
     <tag k="slope" v="0.0"/>
@@ -1307,7 +1184,7 @@
     <tag k="center" v="-101986"/>
     <tag k="drivable" v="True"/>
     <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99896"/>
+    <tag k="parking_accesses" v="-100299"/>
   </relation>
   <relation id="-99886">
     <member type="way" role="outer" ref="-102549"/>
@@ -1318,48 +1195,40 @@
     <tag k="center" v="-101987"/>
     <tag k="drivable" v="True"/>
     <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99892"/>
+    <tag k="parking_accesses" v="-100299"/>
   </relation>
   <relation id="-99887">
     <member type="way" role="outer" ref="-101892"/>
-    <member type="way" role="outer" ref="-101966"/>
     <tag k="type" v="multipolygon"/>
     <tag k="subtype" v="parking_spot"/>
     <tag k="cad_id" v="3"/>
     <tag k="center" v="-101988"/>
     <tag k="drivable" v="True"/>
     <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99891"/>
+    <tag k="parking_accesses" v="-100299"/>
   </relation>
   <relation id="-99888">
-    <member type="way" role="outer" ref="97"/>
     <member type="way" role="outer" ref="-101898"/>
+    <member type="way" role="outer" ref="-103879"/>
     <tag k="type" v="multipolygon"/>
     <tag k="subtype" v="parking_spot"/>
     <tag k="cad_id" v="4"/>
     <tag k="center" v="-101989"/>
     <tag k="drivable" v="True"/>
     <tag k="level" v="1"/>
-    <tag k="parking_accesses" v="-99891"/>
+    <tag k="parking_accesses" v="-100299"/>
   </relation>
   <relation id="-99891">
-    <member type="way" role="outer" ref="-101892"/>
-    <member type="way" role="outer" ref="-101901"/>
-    <member type="way" role="outer" ref="-101884"/>
-    <member type="way" role="outer" ref="-101868"/>
-    <member type="way" role="outer" ref="-101898"/>
+    <member type="way" role="outer" ref="-103879"/>
     <tag k="type" v="multipolygon"/>
     <tag k="subtype" v="parking_access"/>
     <tag k="cad_id" v="10002"/>
     <tag k="drivable" v="True"/>
     <tag k="level" v="1"/>
     <tag k="parking_spots" v="-99887,-99888"/>
-    <tag k="ref_lanelet" v="1000,-100097"/>
+    <tag k="ref_lanelet" v="46,-100097"/>
   </relation>
   <relation id="-99892">
-    <member type="way" role="outer" ref="-102530"/>
-    <member type="way" role="outer" ref="42"/>
-    <member type="way" role="outer" ref="-101843"/>
     <member type="way" role="outer" ref="-102549"/>
     <tag k="type" v="multipolygon"/>
     <tag k="subtype" v="parking_access"/>
@@ -1370,10 +1239,8 @@
     <tag k="ref_lanelet" v="46,-100097"/>
   </relation>
   <relation id="-99896">
-    <member type="way" role="outer" ref="-102811"/>
     <member type="way" role="outer" ref="-101833"/>
     <member type="way" role="outer" ref="-102812"/>
-    <member type="way" role="outer" ref="-101840"/>
     <tag k="type" v="multipolygon"/>
     <tag k="subtype" v="parking_access"/>
     <tag k="cad_id" v="10000"/>
@@ -1381,5 +1248,46 @@
     <tag k="level" v="1"/>
     <tag k="parking_spots" v="-99871"/>
     <tag k="ref_lanelet" v="46,-100097"/>
+  </relation>
+  <relation id="-100299">
+    <member type="way" role="outer" ref="-101892"/>
+    <member type="way" role="outer" ref="-103879"/>
+    <member type="way" role="outer" ref="-101898"/>
+    <member type="way" role="outer" ref="-102934"/>
+    <member type="way" role="outer" ref="-102832"/>
+    <member type="way" role="outer" ref="-102812"/>
+    <member type="way" role="outer" ref="-101833"/>
+    <member type="way" role="outer" ref="-102936"/>
+    <member type="way" role="outer" ref="-102549"/>
+    <member type="way" role="outer" ref="-102935"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="subtype" v="parking_access"/>
+    <tag k="cad_id" v="5000"/>
+    <tag k="drivable" v="True"/>
+    <tag k="level" v="1"/>
+    <tag k="parking_spots" v="-100311,-100306,-99886,-99871"/>
+    <tag k="ref_lanelet" v="46,-100097"/>
+  </relation>
+  <relation id="-100306">
+    <member type="way" role="outer" ref="-101892"/>
+    <member type="way" role="outer" ref="-103465"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="subtype" v="parking_spot"/>
+    <tag k="cad_id" v="3"/>
+    <tag k="center" v="-101988"/>
+    <tag k="drivable" v="True"/>
+    <tag k="level" v="1"/>
+    <tag k="parking_accesses" v="-100299"/>
+  </relation>
+  <relation id="-100311">
+    <member type="way" role="outer" ref="-101898"/>
+    <member type="way" role="outer" ref="-103468"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="subtype" v="parking_spot"/>
+    <tag k="cad_id" v="4"/>
+    <tag k="center" v="-101989"/>
+    <tag k="drivable" v="True"/>
+    <tag k="level" v="1"/>
+    <tag k="parking_accesses" v="-100299"/>
   </relation>
 </osm>

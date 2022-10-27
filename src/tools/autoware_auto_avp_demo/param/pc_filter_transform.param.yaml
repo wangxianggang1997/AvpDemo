@@ -12,8 +12,8 @@ lidar_front:
       expected_num_publishers:  1
       start_angle:            0.0  # radians 过滤垂直角度范围起始值
       end_angle:              6.28 # 过滤垂直角度范围终止值
-      min_radius:             3.0  # meters 过滤最小距离
-      max_radius:             150.0 # 过滤最大距离
+      min_radius:             0.80  # meters 过滤最小距离   origin 3.0
+      max_radius:             50.0 # 过滤最大距离           origin 150.0
       static_transformer: #从lidar_front转换到base_link
         quaternion:
           x:                    0.0
@@ -21,9 +21,9 @@ lidar_front:
           z:                    0.0
           w:                    1.0
         translation:
-          x:                    1.498
-          y:                    -0.022
-          z:                    1.49
+          x:                    0.47         #1.498
+          y:                    0.0          #-0.022
+          z:                    0.86
 
 lidar_rear:
   filter_transform_vlp16_rear:
@@ -37,8 +37,8 @@ lidar_rear:
       expected_num_publishers:  1
       start_angle:            0.0       # radians
       end_angle:              6.28
-      min_radius:             3.0       # meters
-      max_radius:             150.0
+      min_radius:             0.85       # meters
+      max_radius:             50.0
       static_transformer:
         quaternion:
           x:                    0.0
@@ -46,6 +46,6 @@ lidar_rear:
           z:                    0.0
           w:                    1.0
         translation:
-          x:                    1.498
-          y:                    -0.022
-          z:                    1.49
+          x:                    0.47
+          y:                    0.0
+          z:                    0.86

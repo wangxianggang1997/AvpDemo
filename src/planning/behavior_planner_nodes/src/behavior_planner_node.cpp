@@ -288,6 +288,7 @@ void BehaviorPlannerNode::on_ego_state(const State::SharedPtr & msg)
   }
 
   static auto previous_output = std::chrono::system_clock::now();
+  //获取需要的档位
   const auto desired_gear = m_planner->get_desired_gear(m_ego_state);
   if (desired_gear != m_current_gear) {
     const auto throttle_time = std::chrono::duration<float64_t>(3);

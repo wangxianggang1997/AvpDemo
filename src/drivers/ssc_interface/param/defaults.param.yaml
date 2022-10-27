@@ -5,8 +5,8 @@
     # "raw", "basic" or "high_level"
     control_command: "basic"
     ssc:
-      front_axle_to_cog: 1.228
-      rear_axle_to_cog: 1.5618
+      front_axle_to_cog: 0.5  # origin 1.228 
+      rear_axle_to_cog:  0.5  # origin 1.5618
       max_yaw_rate: 1.5708
     state_machine:
       gear_shift_velocity_threshold_mps: 0.5
