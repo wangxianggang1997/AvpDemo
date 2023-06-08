@@ -17,7 +17,7 @@
         min_lateral_velocity_mps: -3.0
         max_lateral_velocity_mps: 3.0
         min_acceleration_mps2: -3.0
-        max_acceleration_mps2: 1.5
+        max_acceleration_mps2:  1.5
         min_yaw_rate_rps: -3.0
         max_yaw_rate_rps: 3.0
         min_jerk_mps3: -10.0
@@ -47,7 +47,7 @@
           longitudinal_velocity: 25.0   # to make the pose velocity as the reference trajectory at each trajectory points
           lateral_velocity: 0.0         # NOT USED
           yaw_rate: 0.0                 # NOT USED
-          acceleration: 10.0            # to make the accelration zero
+          acceleration:  10.0            # to make the accelration zero
           jerk: 0.0                     # NOT USED
           steer_angle: 0.0              # to make the steering angle zero
           steer_angle_rate: 0.0         # NOT USED

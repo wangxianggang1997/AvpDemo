@@ -9,7 +9,7 @@
       rear_axle_to_cog: 1.5618
       max_yaw_rate: 1.5708
     state_machine:
-      gear_shift_velocity_threshold_mps: 0.5
+      gear_shift_velocity_threshold_mps:  0.5
       acceleration_limits:
         min: -5.0
         max: 15.0
